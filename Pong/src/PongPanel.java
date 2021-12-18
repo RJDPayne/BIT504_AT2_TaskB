@@ -13,8 +13,8 @@ import java.awt.Font;
 
 public class PongPanel extends JPanel implements ActionListener, KeyListener{
 	//Declare variables
-	private static final Color BACKGROUND_COLOUR = Color.BLACK;
-	private final static int TIMER_DELAY = 5, BALL_MOVEMENT_SPEED = 1, POINTS_TO_WIN = 3, SCORE_TEXT_X = 100, SCORE_TEXT_Y = 100, SCORE_FONT_SIZE = 50;
+	private static final Color BACKGROUND_COLOUR = Color.WHITE;
+	private final static int TIMER_DELAY = 5, BALL_MOVEMENT_SPEED = 1, POINTS_TO_WIN = 11, SCORE_TEXT_X = 100, SCORE_TEXT_Y = 100, SCORE_FONT_SIZE = 50;
 	private static final String SCORE_FONT_FAMILY = "Serif"; 
 	Ball ball;
 	Paddle paddle1;
