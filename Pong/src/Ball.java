@@ -9,7 +9,7 @@ public class Ball extends Sprite{
 		setWidth(BALL_WIDTH);
 		setHeight(BALL_HEIGHT);
 		setColour(BALL_COLOUR);
-		//Set ball initial position as centre of screen and then create it there.
+		//Set ball initial position as centre of screen and then create it there..
 		setInitialPosition(panelWidth / 2 - (getWidth() / 2), panelHeight / 2 - (getHeight() / 2));
 		resetToInitialPosition();
 		
